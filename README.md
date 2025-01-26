@@ -16,15 +16,15 @@ A standard 90/10 split is used to separate the training and validation sets. The
 Use per_device_train_batch_size=2 and gradient_accumulation_steps=8 to simulate a larger effective batch size.
 Enable mixed precision (fp16=True) to speed up training and reduce memory usage.
 Save and evaluate the model every few steps, if desired.
-Saving and Loading Tokenized Datasets
 The project also demonstrates how to save the tokenized datasets to disk using save_to_disk, and load them later with load_from_disk. This approach allows you to avoid re-tokenizing the entire dataset each time you want to train or experiment with different hyperparameters.
 
 ## Future Work
 1. Experiment with different subsets of data.
 2. Use Git LFS if you need to store large files in the repository (to avoid file size limits).
--Explore optimizations such as gradient checkpointing for even lower VRAM usage.
--Apply these steps to other models or larger datasets once you have the capacity.
--License
+3. Explore optimizations such as gradient checkpointing for even lower VRAM usage.
+4. Apply these steps to other models or larger datasets once you have the capacity.
+
+# License
 -This project is provided under the MIT License. Feel free to modify or distribute as needed.
 
 ## Setup and Installation
