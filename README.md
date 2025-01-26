@@ -20,12 +20,12 @@ Saving and Loading Tokenized Datasets
 The project also demonstrates how to save the tokenized datasets to disk using save_to_disk, and load them later with load_from_disk. This approach allows you to avoid re-tokenizing the entire dataset each time you want to train or experiment with different hyperparameters.
 
 ## Future Work
-Experiment with different subsets of data.
-Use Git LFS if you need to store large files in the repository (to avoid file size limits).
-Explore optimizations such as gradient checkpointing for even lower VRAM usage.
-Apply these steps to other models or larger datasets once you have the capacity.
-License
-This project is provided under the MIT License. Feel free to modify or distribute as needed.
+-Experiment with different subsets of data.
+-Use Git LFS if you need to store large files in the repository (to avoid file size limits).
+-Explore optimizations such as gradient checkpointing for even lower VRAM usage.
+-Apply these steps to other models or larger datasets once you have the capacity.
+-License
+-This project is provided under the MIT License. Feel free to modify or distribute as needed.
 
 ## Setup and Installation
 
